@@ -3,8 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* background-color: navy; */
 }
-
+*{
+  background-color: rgb(20, 38, 80);
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -23,6 +26,7 @@
     transform: rotate(0deg);
   }
   to {
+
     transform: rotate(360deg);
   }
 }
@@ -38,5 +42,5 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: navy;
 }
